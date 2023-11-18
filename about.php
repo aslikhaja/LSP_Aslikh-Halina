@@ -1,9 +1,9 @@
 <?php
-  include('koneksi.php');
+  include('koneksi.php'); //koneksi ke database
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,13 +51,14 @@
         <div class="card-body">
         <div class="row justify-content-start">
         <div class="col-">
-        <img src="dist/img/alfris.jpg" class="elevation-2" alt="User Image" width="200">
+        <img src="dist/img/aslikh.jpg" class="elevation-2" alt="User Image" width="200">
         </div>
         <div class="col-4">
         Aplikasi ini dibuat oleh:
-          <br>Nama: Muhammad Alfris Wicahyo
-          <br>NIM: 2031730050
-          <br>Tanggal: 08 November 2022
+          <br>Nama: Aslikh Halina
+          <br>Prodi:D3-MI PSSDKU Kediri
+          <br>NIM: 2131730018
+          <br>Tanggal: 10 November 2023
         </div>
         </div> 
           </div>

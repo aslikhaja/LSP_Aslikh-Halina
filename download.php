@@ -1,11 +1,11 @@
 <!-- <?php
     include('koneksi.php');
-    if(isset($_GET['nomor_surat'])){
+    if(isset($_GET['nomor_surat'])){ //memeriksa parameter surat yang dikirimkan melalui metode GET
         $nomor_surat = $_GET['nomor_surat'];
         $stat = $koneksi->prepare("select * from arsip where nomor_surat=?");
         $stat->bindParam(1, $nomor_surat);
         $stat->execute();
-        $data = $stat->fetch();
+        $data = $stat->fetch(); // mendapatkan informasi file dari database berdasarkan nomor surat yang diberikan
 
         $file = 'berkas/'.$data['file'];
 

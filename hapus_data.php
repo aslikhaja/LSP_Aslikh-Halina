@@ -11,7 +11,7 @@ unlink("berkas/".$result['file']);
 
 function hapus_data($koneksi, $nomor_surat){
     $del = "DELETE FROM arsip WHERE nomor_surat = '$nomor_surat' ";
-    return $koneksi->query($del);
+    return $koneksi->query($del); //Parameter adalah variabel yang digunakan dalam sebuah fungsi untuk menerima masukan atau input dari luar fungsi tersebut
 }
 
 $check = hapus_data($koneksi, $nomor_surat);
@@ -24,4 +24,4 @@ else{
 }
 ?>
 <br>
-<a href="index.php"> Kembali </a>
+<a href="index.php"> Kembali </a> 
